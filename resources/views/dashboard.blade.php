@@ -98,7 +98,7 @@
                 <form class="form-inline my-2 my-lg-0" method="GET" action="{{ url('search') }}">
                 {{csrf_field()}}
                 @method('GET')
-                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" id="search">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search by name" aria-label="Search" id="search">
                     <input class="btn btn-dark" type="submit" name="submit" value="Search"> 
                 </form>
             </ul>
