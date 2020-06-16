@@ -38,5 +38,3 @@ Route::put('dashboard/{id}/edit' , 'StudentController@edit');
 Route::get('dashboard/{id}/edit' , 'StudentController@show');
 
 Route::put('dashboard/{id}' , 'StudentController@update');
-
-hfjgjhjgfytfygugygygugu
